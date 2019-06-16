@@ -43,7 +43,7 @@ class App extends Component {
     return (
       <div className="App">
         <h3>Text Cow. Moo</h3>
-        <p>{this.state.cow}</p>
+        <code>{this.state.cow}</code>
         <form onSubmit={this.customCow}>
           <label>Custom Cow Text:</label>
           <input
